@@ -1,0 +1,29 @@
+Base -> BaseEntity: Id, DateCreate, Description, IsDeleted
+
+User: FirstName, LastName, NationalCode, PhoneNumber, UserName, Password, Roles, Products, Address, Basket
+
+Role: Name, Users
+
+Product: Name, BarCode, Price, Category, User, ProductOrders, ProductBasket, Brand, Galleries, SaleDiscounts
+
+Category: Name, Products
+
+Basket: User, ProductBaskets, NextProductBaskets, 
+
+ProductBasket: Basket, product, Count, Total Price
+
+ProductOrder: product, Count, Order, Total Price
+
+State: Name, Cities
+
+City: Name, State
+
+Address: Text, City, Code Post?, User?, Product?
+
+Order: Status, Discount, ProductOrders
+
+Brand: Name, Logo(Image), Products
+
+Gallery: Name, Type, Prodoct
+
+SaleDiscount: DateStart, DateEnd, Discount, Code, Product?, Catregory?, State?, IsActive, IsVisible, order
