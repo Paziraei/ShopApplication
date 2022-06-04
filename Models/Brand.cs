@@ -13,8 +13,8 @@ namespace Models
 
         public byte[]? Logo { get; set; } 
         
-        public Product Prodact { get; set; }
-        public int ProdctId { get; set; }
+        public List<Product> Product { get; set; }
+       
 
     }
 }

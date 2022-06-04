@@ -10,7 +10,7 @@ namespace Models
         [MaxLength(50)]
         public string? Status { get; set; }
 
-        public List<ProdactOrder> ProdactOrders { get; set; }
-        public List<ProdactOrder> ProdactOrderId { get; set; }
+        public List<ProductOrder> ProductOrders { get; set; }
+       
     }
 }

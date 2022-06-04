@@ -14,5 +14,6 @@ namespace Models
         public State State { get; set; }
         
         public int StateId { get; set; }
+        public List<Address> Addresses { get; set; }
     }
 }

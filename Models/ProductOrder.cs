@@ -1,14 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace Models
 {
-    public class ProdactOrder : Base.BaseEntity
+    public class ProductOrder : Base.BaseEntity
     {
-        public ProdactOrder()
+        public ProductOrder()
         {
         }
 
-        public Product Prodact { get; set; }
-        public int ProdactId { get; set; }
+        public Product Product { get; set; }
+        public int ProductId { get; set; }
 
         public int Count { get; set; }
 

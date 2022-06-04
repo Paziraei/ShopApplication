@@ -11,8 +11,8 @@ namespace Models
         public int UserId { get; set; }
 
         
-        public List<ProdactBasket> ProdactBaskets { get; set; }
+        public List<ProductBasket> ProductBaskets { get; set; }
         
-        public List<ProdactBasket> NextProdactBaskets { get; set; }
+        public List<ProductBasket> NextProductBaskets { get; set; }
     }
 }

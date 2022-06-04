@@ -18,8 +18,8 @@ namespace Models
         
         [MaxLength(10)]
         public string Code { get; set; }
-        public Product? Prodact { get; set; }
-        public int? ProdactId { get; set; }
+        public Product? Product { get; set; }
+        public int? ProductId { get; set; }
 
         public Category? Category { get; set; }
         public int? CategoryId { get; set; }

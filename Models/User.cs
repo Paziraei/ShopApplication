@@ -29,11 +29,11 @@ namespace Models
 
         public List<UserRole> UserRoles { get; set; }
 
-        public List<Product> Prodacts { get; set; }
+        public List<Product> Products { get; set; }
 
-        public Address Address { get; set; }
-        public int AddressId { get; set; }
-        public Basket Basket { get; set; }
-        public int BasketId { get; set; }
+        public List< Address> Addresses{ get; set; }
+      
+        public List<Basket> Basket { get; set; }
+        
     }
 }
